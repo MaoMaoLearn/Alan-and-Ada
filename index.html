@@ -1,14 +1,20 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Alan-and-Ada/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>elevenlabs-conversational-ai</title>
-    <script type="module" crossorigin src="/Alan-and-Ada/assets/index-jsUPbVtd.js"></script>
-    <link rel="stylesheet" crossorigin href="/Alan-and-Ada/assets/index-CsUDhMuy.css">
-  </head>
-  <body>
-    <div id="app"></div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ElevenLabs Agents</title>
+      <script type="module" crossorigin src="/Alan-and-Ada/assets/index-BnMvl-iE.js"></script>
+    </head>
+    <body style="font-family: Arial, sans-serif; text-align: center; padding: 50px;">
+        <h1>ElevenLabs Agents</h1>
+        <div style="margin-bottom: 20px;">
+            <button id="startButton" style="padding: 10px 20px; margin: 5px;">Start Conversation</button>
+            <button id="stopButton" style="padding: 10px 20px; margin: 5px;" disabled>Stop Conversation</button>
+        </div>
+        <div style="font-size: 18px;">
+            <p>Status: <span id="connectionStatus">Disconnected</span></p>
+            <p>Agent is <span id="agentStatus">listening</span></p>
+        </div>
+    </body>
 </html>
